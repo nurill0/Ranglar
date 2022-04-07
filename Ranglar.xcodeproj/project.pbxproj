@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		764F276E7022A1316AAC9F70 /* Pods_Ranglar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCA71A1D95CF348AB872A11 /* Pods_Ranglar.framework */; };
+		FB1A7CAF27D12702003955F8 /* incorrect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB1A7CAC27D12702003955F8 /* incorrect.mp3 */; };
+		FB1A7CB027D12702003955F8 /* congratulation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB1A7CAD27D12702003955F8 /* congratulation.mp3 */; };
+		FB1A7CB127D12702003955F8 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB1A7CAE27D12702003955F8 /* correct.mp3 */; };
+		FB1A7CB327D14801003955F8 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1A7CB227D14801003955F8 /* GameModel.swift */; };
+		FB1A7CB527D14839003955F8 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1A7CB427D14839003955F8 /* DummyData.swift */; };
+		FB1A7CB727D1487E003955F8 /* MomorizeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1A7CB627D1487E003955F8 /* MomorizeCell.swift */; };
+		FB1B1F5927D1225800F09E5D /* AppButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1B1F5827D1225800F09E5D /* AppButtons.swift */; };
+		FB1B1F5B27D1230500F09E5D /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1B1F5A27D1230400F09E5D /* QuizData.swift */; };
+		FB3736AA27D07AF2005FF401 /* ChooseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3736A927D07AF2005FF401 /* ChooseController.swift */; };
+		FB3736AF27D0B4B2005FF401 /* LearnController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3736AE27D0B4B2005FF401 /* LearnController.swift */; };
+		FB3736B127D0B4BD005FF401 /* QuizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3736B027D0B4BD005FF401 /* QuizController.swift */; };
+		FB3736B327D0B4CA005FF401 /* MemorizeGameVCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3736B227D0B4CA005FF401 /* MemorizeGameVCController.swift */; };
+		FB78280627D7743C00A22CAC /* toʻq qizil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB78280527D7743C00A22CAC /* toʻq qizil.mp3 */; };
+		FB78280827D7744200A22CAC /* yashil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB78280727D7744200A22CAC /* yashil.mp3 */; };
 		FB9CF93527CF9A4800CC44B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9CF93427CF9A4800CC44B9 /* AppDelegate.swift */; };
 		FB9CF93727CF9A4800CC44B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9CF93627CF9A4800CC44B9 /* SceneDelegate.swift */; };
 		FB9CF93927CF9A4800CC44B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9CF93827CF9A4800CC44B9 /* ViewController.swift */; };
@@ -14,9 +29,41 @@
 		FB9CF93F27CF9A4800CC44B9 /* Ranglar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB9CF93D27CF9A4800CC44B9 /* Ranglar.xcdatamodeld */; };
 		FB9CF94127CF9A4A00CC44B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9CF94027CF9A4A00CC44B9 /* Assets.xcassets */; };
 		FB9CF94427CF9A4A00CC44B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9CF94227CF9A4A00CC44B9 /* LaunchScreen.storyboard */; };
+		FB9CF95227CF9EE500CC44B9 /* launch.json in Resources */ = {isa = PBXBuildFile; fileRef = FB9CF95127CF9EE500CC44B9 /* launch.json */; };
+		FBBDEE3127D0F2A100BD0937 /* CVDelegate+DataSourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBDEE3027D0F2A100BD0937 /* CVDelegate+DataSourse.swift */; };
+		FBBDEE3327D0F2C100BD0937 /* ColorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBDEE3227D0F2C100BD0937 /* ColorsModel.swift */; };
+		FBBDEE3627D0F32300BD0937 /* LearnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBDEE3527D0F32300BD0937 /* LearnCell.swift */; };
+		FBBDEE4527D10F4700BD0937 /* jigarrang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBBDEE3827D10F4700BD0937 /* jigarrang.mp3 */; };
+		FBBDEE4627D10F4700BD0937 /* koʻk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBBDEE3927D10F4700BD0937 /* koʻk.mp3 */; };
+		FBBDEE4727D10F4700BD0937 /* havorang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBBDEE3A27D10F4700BD0937 /* havorang.mp3 */; };
+		FBBDEE4827D10F4700BD0937 /* qora.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBBDEE3B27D10F4700BD0937 /* qora.mp3 */; };
+		FBBDEE4A27D10F4700BD0937 /* oq.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBBDEE3D27D10F4700BD0937 /* oq.mp3 */; };
+		FBBDEE4B27D10F4700BD0937 /* toʻq sariq.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBBDEE3E27D10F4700BD0937 /* toʻq sariq.mp3 */; };
+		FBBDEE4C27D10F4700BD0937 /* sariq.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBBDEE3F27D10F4700BD0937 /* sariq.mp3 */; };
+		FBBDEE4D27D10F4700BD0937 /* qizil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBBDEE4027D10F4700BD0937 /* qizil.mp3 */; };
+		FBBDEE4F27D10F4700BD0937 /* kulrang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBBDEE4227D10F4700BD0937 /* kulrang.mp3 */; };
+		FBBDEE5027D10F4700BD0937 /* siyohrang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBBDEE4327D10F4700BD0937 /* siyohrang.mp3 */; };
+		FBBDEE5127D10F4700BD0937 /* pushti.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBBDEE4427D10F4700BD0937 /* pushti.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDCA71A1D95CF348AB872A11 /* Pods_Ranglar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ranglar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C487BE553A94A90E0F563334 /* Pods-Ranglar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ranglar.debug.xcconfig"; path = "Target Support Files/Pods-Ranglar/Pods-Ranglar.debug.xcconfig"; sourceTree = "<group>"; };
+		EEBA1250715CDAC28FEEA687 /* Pods-Ranglar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ranglar.release.xcconfig"; path = "Target Support Files/Pods-Ranglar/Pods-Ranglar.release.xcconfig"; sourceTree = "<group>"; };
+		FB1A7CAC27D12702003955F8 /* incorrect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrect.mp3; sourceTree = SOURCE_ROOT; };
+		FB1A7CAD27D12702003955F8 /* congratulation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = congratulation.mp3; sourceTree = SOURCE_ROOT; };
+		FB1A7CAE27D12702003955F8 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = SOURCE_ROOT; };
+		FB1A7CB227D14801003955F8 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		FB1A7CB427D14839003955F8 /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		FB1A7CB627D1487E003955F8 /* MomorizeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomorizeCell.swift; sourceTree = "<group>"; };
+		FB1B1F5827D1225800F09E5D /* AppButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtons.swift; sourceTree = "<group>"; };
+		FB1B1F5A27D1230400F09E5D /* QuizData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>"; };
+		FB3736A927D07AF2005FF401 /* ChooseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseController.swift; sourceTree = "<group>"; };
+		FB3736AE27D0B4B2005FF401 /* LearnController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnController.swift; sourceTree = "<group>"; };
+		FB3736B027D0B4BD005FF401 /* QuizController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
+		FB3736B227D0B4CA005FF401 /* MemorizeGameVCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGameVCController.swift; sourceTree = "<group>"; };
+		FB78280527D7743C00A22CAC /* toʻq qizil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "toʻq qizil.mp3"; path = "sounds/toʻq qizil.mp3"; sourceTree = SOURCE_ROOT; };
+		FB78280727D7744200A22CAC /* yashil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = yashil.mp3; path = sounds/yashil.mp3; sourceTree = SOURCE_ROOT; };
 		FB9CF93127CF9A4800CC44B9 /* Ranglar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ranglar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9CF93427CF9A4800CC44B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB9CF93627CF9A4800CC44B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +73,21 @@
 		FB9CF94027CF9A4A00CC44B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB9CF94327CF9A4A00CC44B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB9CF94527CF9A4A00CC44B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9CF95127CF9EE500CC44B9 /* launch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = launch.json; sourceTree = "<group>"; };
+		FBBDEE3027D0F2A100BD0937 /* CVDelegate+DataSourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CVDelegate+DataSourse.swift"; sourceTree = "<group>"; };
+		FBBDEE3227D0F2C100BD0937 /* ColorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsModel.swift; sourceTree = "<group>"; };
+		FBBDEE3527D0F32300BD0937 /* LearnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCell.swift; sourceTree = "<group>"; };
+		FBBDEE3827D10F4700BD0937 /* jigarrang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = jigarrang.mp3; path = sounds/jigarrang.mp3; sourceTree = SOURCE_ROOT; };
+		FBBDEE3927D10F4700BD0937 /* koʻk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "koʻk.mp3"; path = "sounds/koʻk.mp3"; sourceTree = SOURCE_ROOT; };
+		FBBDEE3A27D10F4700BD0937 /* havorang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = havorang.mp3; path = sounds/havorang.mp3; sourceTree = SOURCE_ROOT; };
+		FBBDEE3B27D10F4700BD0937 /* qora.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = qora.mp3; path = sounds/qora.mp3; sourceTree = SOURCE_ROOT; };
+		FBBDEE3D27D10F4700BD0937 /* oq.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = oq.mp3; path = sounds/oq.mp3; sourceTree = SOURCE_ROOT; };
+		FBBDEE3E27D10F4700BD0937 /* toʻq sariq.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "toʻq sariq.mp3"; path = "sounds/toʻq sariq.mp3"; sourceTree = SOURCE_ROOT; };
+		FBBDEE3F27D10F4700BD0937 /* sariq.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sariq.mp3; path = sounds/sariq.mp3; sourceTree = SOURCE_ROOT; };
+		FBBDEE4027D10F4700BD0937 /* qizil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = qizil.mp3; path = sounds/qizil.mp3; sourceTree = SOURCE_ROOT; };
+		FBBDEE4227D10F4700BD0937 /* kulrang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = kulrang.mp3; path = sounds/kulrang.mp3; sourceTree = SOURCE_ROOT; };
+		FBBDEE4327D10F4700BD0937 /* siyohrang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = siyohrang.mp3; path = sounds/siyohrang.mp3; sourceTree = SOURCE_ROOT; };
+		FBBDEE4427D10F4700BD0937 /* pushti.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pushti.mp3; path = sounds/pushti.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +95,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764F276E7022A1316AAC9F70 /* Pods_Ranglar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B574045FE78307B48A25AB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C487BE553A94A90E0F563334 /* Pods-Ranglar.debug.xcconfig */,
+				EEBA1250715CDAC28FEEA687 /* Pods-Ranglar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D61A50E5214B30A83473E49D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDCA71A1D95CF348AB872A11 /* Pods_Ranglar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB1B1F5727D1222D00F09E5D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FB1B1F5827D1225800F09E5D /* AppButtons.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FB3736A827D07AE0005FF401 /* ChoosePage */ = {
+			isa = PBXGroup;
+			children = (
+				FB3736A927D07AF2005FF401 /* ChooseController.swift */,
+			);
+			path = ChoosePage;
+			sourceTree = "<group>";
+		};
+		FB3736AB27D0B492005FF401 /* LearnPage */ = {
+			isa = PBXGroup;
+			children = (
+				FB3736AE27D0B4B2005FF401 /* LearnController.swift */,
+				FBBDEE3527D0F32300BD0937 /* LearnCell.swift */,
+				FBBDEE2F27D0F28400BD0937 /* Extensions */,
+			);
+			path = LearnPage;
+			sourceTree = "<group>";
+		};
+		FB3736AC27D0B499005FF401 /* QuizPage */ = {
+			isa = PBXGroup;
+			children = (
+				FB3736B027D0B4BD005FF401 /* QuizController.swift */,
+				FB1B1F5A27D1230400F09E5D /* QuizData.swift */,
+			);
+			path = QuizPage;
+			sourceTree = "<group>";
+		};
+		FB3736AD27D0B4A1005FF401 /* GamePage */ = {
+			isa = PBXGroup;
+			children = (
+				FB3736B227D0B4CA005FF401 /* MemorizeGameVCController.swift */,
+				FB1A7CB227D14801003955F8 /* GameModel.swift */,
+				FB1A7CB427D14839003955F8 /* DummyData.swift */,
+				FB1A7CB627D1487E003955F8 /* MomorizeCell.swift */,
+			);
+			path = GamePage;
+			sourceTree = "<group>";
+		};
 		FB9CF92827CF9A4800CC44B9 = {
 			isa = PBXGroup;
 			children = (
 				FB9CF93327CF9A4800CC44B9 /* Ranglar */,
 				FB9CF93227CF9A4800CC44B9 /* Products */,
+				2B574045FE78307B48A25AB3 /* Pods */,
+				D61A50E5214B30A83473E49D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +186,79 @@
 		FB9CF93327CF9A4800CC44B9 /* Ranglar */ = {
 			isa = PBXGroup;
 			children = (
-				FB9CF93427CF9A4800CC44B9 /* AppDelegate.swift */,
-				FB9CF93627CF9A4800CC44B9 /* SceneDelegate.swift */,
-				FB9CF93827CF9A4800CC44B9 /* ViewController.swift */,
-				FB9CF93A27CF9A4800CC44B9 /* Main.storyboard */,
+				FB1B1F5727D1222D00F09E5D /* Constants */,
+				FB9CF94D27CF9C0D00CC44B9 /* Pages */,
 				FB9CF94027CF9A4A00CC44B9 /* Assets.xcassets */,
-				FB9CF94227CF9A4A00CC44B9 /* LaunchScreen.storyboard */,
+				FB1A7CAD27D12702003955F8 /* congratulation.mp3 */,
+				FB1A7CAE27D12702003955F8 /* correct.mp3 */,
+				FB1A7CAC27D12702003955F8 /* incorrect.mp3 */,
+				FBBDEE3927D10F4700BD0937 /* koʻk.mp3 */,
+				FBBDEE3D27D10F4700BD0937 /* oq.mp3 */,
+				FBBDEE3E27D10F4700BD0937 /* toʻq sariq.mp3 */,
+				FBBDEE3A27D10F4700BD0937 /* havorang.mp3 */,
+				FBBDEE3827D10F4700BD0937 /* jigarrang.mp3 */,
+				FBBDEE4227D10F4700BD0937 /* kulrang.mp3 */,
+				FBBDEE4427D10F4700BD0937 /* pushti.mp3 */,
+				FB78280727D7744200A22CAC /* yashil.mp3 */,
+				FBBDEE4027D10F4700BD0937 /* qizil.mp3 */,
+				FBBDEE3B27D10F4700BD0937 /* qora.mp3 */,
+				FBBDEE3F27D10F4700BD0937 /* sariq.mp3 */,
+				FB78280527D7743C00A22CAC /* toʻq qizil.mp3 */,
+				FBBDEE4327D10F4700BD0937 /* siyohrang.mp3 */,
+				FB9CF94C27CF9BFF00CC44B9 /* view */,
+				FB9CF94B27CF9BF500CC44B9 /* app */,
 				FB9CF94527CF9A4A00CC44B9 /* Info.plist */,
 				FB9CF93D27CF9A4800CC44B9 /* Ranglar.xcdatamodeld */,
 			);
 			path = Ranglar;
+			sourceTree = "<group>";
+		};
+		FB9CF94B27CF9BF500CC44B9 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				FB9CF93627CF9A4800CC44B9 /* SceneDelegate.swift */,
+				FB9CF93427CF9A4800CC44B9 /* AppDelegate.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		FB9CF94C27CF9BFF00CC44B9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FB9CF94227CF9A4A00CC44B9 /* LaunchScreen.storyboard */,
+				FB9CF93A27CF9A4800CC44B9 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FB9CF94D27CF9C0D00CC44B9 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				FB3736AD27D0B4A1005FF401 /* GamePage */,
+				FB3736AC27D0B499005FF401 /* QuizPage */,
+				FB3736AB27D0B492005FF401 /* LearnPage */,
+				FB3736A827D07AE0005FF401 /* ChoosePage */,
+				FB9CF94E27CF9C4200CC44B9 /* LaunchPage */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		FB9CF94E27CF9C4200CC44B9 /* LaunchPage */ = {
+			isa = PBXGroup;
+			children = (
+				FB9CF95127CF9EE500CC44B9 /* launch.json */,
+				FB9CF93827CF9A4800CC44B9 /* ViewController.swift */,
+			);
+			path = LaunchPage;
+			sourceTree = "<group>";
+		};
+		FBBDEE2F27D0F28400BD0937 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FBBDEE3027D0F2A100BD0937 /* CVDelegate+DataSourse.swift */,
+				FBBDEE3227D0F2C100BD0937 /* ColorsModel.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB9CF94827CF9A4A00CC44B9 /* Build configuration list for PBXNativeTarget "Ranglar" */;
 			buildPhases = (
+				2BAF09267447C2BC19B87AE8 /* [CP] Check Pods Manifest.lock */,
 				FB9CF92D27CF9A4800CC44B9 /* Sources */,
 				FB9CF92E27CF9A4800CC44B9 /* Frameworks */,
 				FB9CF92F27CF9A4800CC44B9 /* Resources */,
+				1B8876D9ACF8D5BD79BB90C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,23 +321,94 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBDEE4A27D10F4700BD0937 /* oq.mp3 in Resources */,
+				FBBDEE4527D10F4700BD0937 /* jigarrang.mp3 in Resources */,
+				FB78280827D7744200A22CAC /* yashil.mp3 in Resources */,
+				FBBDEE4827D10F4700BD0937 /* qora.mp3 in Resources */,
 				FB9CF94427CF9A4A00CC44B9 /* LaunchScreen.storyboard in Resources */,
+				FB1A7CB027D12702003955F8 /* congratulation.mp3 in Resources */,
+				FBBDEE4F27D10F4700BD0937 /* kulrang.mp3 in Resources */,
+				FBBDEE4727D10F4700BD0937 /* havorang.mp3 in Resources */,
+				FBBDEE4627D10F4700BD0937 /* koʻk.mp3 in Resources */,
 				FB9CF94127CF9A4A00CC44B9 /* Assets.xcassets in Resources */,
+				FBBDEE5127D10F4700BD0937 /* pushti.mp3 in Resources */,
 				FB9CF93C27CF9A4800CC44B9 /* Main.storyboard in Resources */,
+				FB9CF95227CF9EE500CC44B9 /* launch.json in Resources */,
+				FBBDEE4B27D10F4700BD0937 /* toʻq sariq.mp3 in Resources */,
+				FB1A7CB127D12702003955F8 /* correct.mp3 in Resources */,
+				FBBDEE4D27D10F4700BD0937 /* qizil.mp3 in Resources */,
+				FBBDEE4C27D10F4700BD0937 /* sariq.mp3 in Resources */,
+				FB1A7CAF27D12702003955F8 /* incorrect.mp3 in Resources */,
+				FBBDEE5027D10F4700BD0937 /* siyohrang.mp3 in Resources */,
+				FB78280627D7743C00A22CAC /* toʻq qizil.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B8876D9ACF8D5BD79BB90C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ranglar/Pods-Ranglar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ranglar/Pods-Ranglar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ranglar/Pods-Ranglar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BAF09267447C2BC19B87AE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ranglar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB9CF92D27CF9A4800CC44B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3736B127D0B4BD005FF401 /* QuizController.swift in Sources */,
+				FBBDEE3127D0F2A100BD0937 /* CVDelegate+DataSourse.swift in Sources */,
+				FB3736AF27D0B4B2005FF401 /* LearnController.swift in Sources */,
+				FB1A7CB527D14839003955F8 /* DummyData.swift in Sources */,
 				FB9CF93927CF9A4800CC44B9 /* ViewController.swift in Sources */,
 				FB9CF93527CF9A4800CC44B9 /* AppDelegate.swift in Sources */,
+				FB1A7CB327D14801003955F8 /* GameModel.swift in Sources */,
 				FB9CF93727CF9A4800CC44B9 /* SceneDelegate.swift in Sources */,
+				FB3736B327D0B4CA005FF401 /* MemorizeGameVCController.swift in Sources */,
+				FB1B1F5B27D1230500F09E5D /* QuizData.swift in Sources */,
+				FB1B1F5927D1225800F09E5D /* AppButtons.swift in Sources */,
+				FBBDEE3627D0F32300BD0937 /* LearnCell.swift in Sources */,
 				FB9CF93F27CF9A4800CC44B9 /* Ranglar.xcdatamodeld in Sources */,
+				FB3736AA27D07AF2005FF401 /* ChooseController.swift in Sources */,
+				FBBDEE3327D0F2C100BD0937 /* ColorsModel.swift in Sources */,
+				FB1A7CB727D1487E003955F8 /* MomorizeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,18 +552,22 @@
 		};
 		FB9CF94927CF9A4A00CC44B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C487BE553A94A90E0F563334 /* Pods-Ranglar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDUJ47QN57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ranglar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,24 +577,28 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FB9CF94A27CF9A4A00CC44B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBA1250715CDAC28FEEA687 /* Pods-Ranglar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDUJ47QN57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ranglar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,7 +608,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
